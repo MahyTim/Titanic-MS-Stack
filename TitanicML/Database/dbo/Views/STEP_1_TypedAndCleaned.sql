@@ -1,6 +1,6 @@
 ﻿CREATE VIEW STEP_1_TypedAndCleaned
 AS
-SELECT TOP (1000) [PassengerId]
+SELECT [PassengerId]
       ,cast([Survived] as bit) as 'Survived'
        ,(CASE 
                   WHEN PClass = '1'

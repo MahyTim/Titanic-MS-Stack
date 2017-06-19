@@ -66,5 +66,6 @@
   <ItemGroup>
     <Build Include="dbo\Tables\RawData.sql" />
     <Build Include="dbo\Views\STEP_1_TypedAndCleaned.sql" />
+    <Build Include="dbo\Views\STEP_2_MoreGeneralized.sql" />
   </ItemGroup>
 </Project>
