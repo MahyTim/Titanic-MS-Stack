@@ -68,4 +68,8 @@
     <Build Include="dbo\Views\STEP_1_TypedAndCleaned.sql" />
     <Build Include="dbo\Views\STEP_2_MoreGeneralized.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="train.csv" />
+    <None Include="cleaned.csv" />
+  </ItemGroup>
 </Project>
