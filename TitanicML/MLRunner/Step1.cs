@@ -12,7 +12,7 @@ namespace MLRunner
     {
         public static void Execute()
         {
-            Console.WriteLine("Step 1");
+            Console.WriteLine("Raw");
             var data = Entry.GetEntries();
 
             DecisionTreeGenerator generator = new DecisionTreeGenerator()
@@ -23,7 +23,7 @@ namespace MLRunner
             var learner = Learner.Learn(data, 0.8, 10, generator);
             var model = learner.Model;
             Console.WriteLine(learner.Accuracy);
-            //Console.WriteLine(model);
+            Console.WriteLine(model);
         }
 
         public class Entry
@@ -36,10 +36,7 @@ namespace MLRunner
             public string Sex { get; set; }
             [Feature]
             public string Age { get; set; }
-            //[Feature]
-            //public string Title { get; set; }
-            //[Feature]
-            //public string Embarked { get; set; }
+
             public static IEnumerable<Entry> GetEntries()
             {
                 using (var con = new System.Data.SqlClient.SqlConnection(Program.ConnectionString))
