@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Databa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLRunner", "MLRunner\MLRunner.csproj", "{6E399415-82E4-4E0F-AFE4-924F164B0D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLClient", "MLClient\MLClient.csproj", "{167B031D-B4E4-4D5B-A992-55FE6DAF3545}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{6E399415-82E4-4E0F-AFE4-924F164B0D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E399415-82E4-4E0F-AFE4-924F164B0D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E399415-82E4-4E0F-AFE4-924F164B0D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167B031D-B4E4-4D5B-A992-55FE6DAF3545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167B031D-B4E4-4D5B-A992-55FE6DAF3545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167B031D-B4E4-4D5B-A992-55FE6DAF3545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167B031D-B4E4-4D5B-A992-55FE6DAF3545}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
