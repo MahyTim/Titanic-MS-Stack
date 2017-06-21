@@ -13,6 +13,9 @@ namespace MLClient
             InvokeRequestResponseService().Wait();
         }
 
+        //True --> First,Cumings, John Bradley (Florence Briggs Thayer),Mrs,female,38,2,PC 17599,71.28,C,Cherbourg,1
+        //False -->Second	Turpin	 William John Robert (Dorothy Ann Wonnacott)	Mrs	female	27	2	11668	21.00	U	Southampton	0
+
         static async Task InvokeRequestResponseService()
         {
             using (var client = new HttpClient())
@@ -27,22 +30,22 @@ namespace MLClient
                 "Survived", "false"
                 },
                 {
-                "Class", "Third"
+                "Class", "Second"
                 },
                 {
-                "Title", "Mr"
+                "Title", "Mrs"
                 },
                 {
-                "Sex", "male"
+                "Sex", "female"
                 },
                 {
-                "Age", "22"
+                "Age", "27"
                 },
                 {
                 "FamilySize", "2"
                 },
                 {
-                "FarePerPerson", "7.25"
+                "FarePerPerson", "21.00"
                 },
                 {
                 "Deck", "U"
@@ -62,7 +65,7 @@ namespace MLClient
                     }
                 };
 
-                const string apiKey = "Pcnk2vRRNhLahvf8hTv7s8WrLsZjN9CWwAwLsMJH7LklUc0CtJ51AwPXs6LJSXc+0u2mrT9cetshbbF+ljeDVQ=="; // Replace this with the API key for the web service
+                const string apiKey = "XXXX"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
                 client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/daf57c5a6b2a4489a6c98ccddabea525/services/4448ca13fc404275bafc417894ed0fea/execute?api-version=2.0&format=swagger");
 
