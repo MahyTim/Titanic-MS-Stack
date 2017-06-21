@@ -1,0 +1,699 @@
+PassengerId,Survived,Class,LastName,FirstName,Title,Sex,Age,FamilySize,Ticket,FarePerPerson,Deck,Embarked,IsMother
+1,False,Third,Braund, Owen Harris,Mr,male,22,2,A/5 21171,7,25,U,Southampton,0
+2,True,First,Cumings, John Bradley (Florence Briggs Thayer),Mrs,female,38,2,PC 17599,71,28,C,Cherbourg,1
+3,True,Third,Heikkinen, Laina,Miss,female,26,1,STON/O2. 3101282,7,93,U,Southampton,0
+4,True,First,Futrelle, Jacques Heath (Lily May Peel),Mrs,female,35,2,113803,53,10,C,Southampton,0
+5,False,Third,Allen, William Henry,Mr,male,35,1,373450,8,05,U,Southampton,0
+7,False,First,McCarthy, Timothy J,Mr,male,54,1,17463,51,86,E,Southampton,0
+8,False,Third,Palsson, Gosta Leonard,Mr,male,2,5,349909,21,08,U,Southampton,0
+9,True,Third,Johnson, Oscar W (Elisabeth Vilhelmina Berg),Mrs,female,27,3,347742,11,13,U,Southampton,1
+10,True,Second,Nasser, Nicholas (Adele Achem),Mrs,female,14,2,237736,30,07,U,Cherbourg,0
+11,True,Third,Sandstrom, Marguerite Rut,Miss,female,4,3,PP 9549,16,70,G,Southampton,0
+12,True,First,Bonnell, Elizabeth,Miss,female,58,1,113783,26,55,C,Southampton,0
+13,False,Third,Saundercock, William Henry,Mr,male,20,1,A/5. 2151,8,05,U,Southampton,0
+14,False,Third,Andersson, Anders Johan,Mr,male,39,7,347082,31,28,U,Southampton,0
+15,False,Third,Vestrom, Hulda Amanda Adolfina,Miss,female,14,1,350406,7,85,U,Southampton,0
+16,True,Second,Hewlett, (Mary D Kingcome) ,Mrs,female,55,1,248706,16,00,U,Southampton,0
+17,False,Third,Rice, Eugene,Mr,male,2,6,382652,29,13,U,Queenstown,0
+19,False,Third,Vander Planke, Julius (Emelia Maria Vandemoortele),Mrs,female,31,2,345763,18,00,U,Southampton,1
+21,False,Second,Fynney, Joseph J,Mr,male,35,1,239865,26,00,U,Southampton,0
+22,True,Second,Beesley, Lawrence,Mr,male,34,1,248698,13,00,D,Southampton,0
+23,True,Third,McGowan, Anna "Annie",Miss,female,15,1,330923,8,03,U,Queenstown,0
+24,True,First,Sloper, William Thompson,Mr,male,28,1,113788,35,50,A,Southampton,0
+25,False,Third,Palsson, Torborg Danira,Miss,female,8,5,349909,21,08,U,Southampton,0
+26,True,Third,Asplund, Carl Oscar (Selma Augusta Emilia Johansson),Mrs,female,38,7,347077,31,39,U,Southampton,1
+28,False,First,Fortune, Charles Alexander,Mr,male,19,6,19950,263,00,C,Southampton,0
+31,False,First,Uruchurtu, Manuel E,Mr,male,40,1,PC 17601,27,72,U,Cherbourg,0
+34,False,Second,Wheadon, Edward H,Mr,male,66,1,C.A. 24579,10,50,U,Southampton,0
+35,False,First,Meyer, Edgar Joseph,Mr,male,28,2,PC 17604,82,17,U,Cherbourg,0
+36,False,First,Holverson, Alexander Oskar,Mr,male,42,2,113789,52,00,U,Southampton,0
+38,False,Third,Cann, Ernest Charles,Mr,male,21,1,A./5. 2152,8,05,U,Southampton,0
+39,False,Third,Vander Planke, Augusta Maria,Miss,female,18,3,345764,18,00,U,Southampton,0
+40,True,Third,Nicola-Yarred, Jamila,Miss,female,14,2,2651,11,24,U,Cherbourg,0
+41,False,Third,Ahlin, Johan (Johanna Persdotter Larsson),Mrs,female,40,2,7546,9,48,U,Southampton,1
+42,False,Second,Turpin, William John Robert (Dorothy Ann Wonnacott),Mrs,female,27,2,11668,21,00,U,Southampton,0
+44,True,Second,Laroche, Simonne Marie Anne Andree,Miss,female,3,4,SC/Paris 2123,41,58,U,Cherbourg,0
+45,True,Third,Devaney, Margaret Delia,Miss,female,19,1,330958,7,88,U,Queenstown,0
+50,False,Third,Arnold-Franchi, Josef (Josefine Franchi),Mrs,female,18,2,349237,17,80,U,Southampton,0
+51,False,Third,Panula, Juha Niilo,Mr,male,7,6,3101295,39,69,U,Southampton,0
+52,False,Third,Nosworthy, Richard Cater,Mr,male,21,1,A/4. 39886,7,80,U,Southampton,0
+53,True,First,Harper, Henry Sleeper (Myna Haxtun),Mrs,female,49,2,PC 17572,76,73,D,Cherbourg,0
+54,True,Second,Faunthorpe, Lizzie (Elizabeth Anne Wilkinson),Mrs,female,29,2,2926,26,00,U,Southampton,1
+55,False,First,Ostby, Engelhart Cornelius,Mr,male,65,2,113509,61,98,B,Cherbourg,0
+57,True,Second,Rugg, Emily,Miss,female,21,1,C.A. 31026,10,50,U,Southampton,0
+58,False,Third,Novel, Mansouer,Mr,male,28,1,2697,7,23,U,Cherbourg,0
+59,True,Second,West, Constance Mirium,Miss,female,5,4,C.A. 34651,27,75,U,Southampton,0
+60,False,Third,Goodwin, William Frederick,Mr,male,11,8,CA 2144,46,90,U,Southampton,0
+61,False,Third,Sirayanian, Orsen,Mr,male,22,1,2669,7,23,U,Cherbourg,0
+63,False,First,Harris, Henry Birkhardt,Mr,male,45,2,36973,83,48,C,Southampton,0
+64,False,Third,Skoog, Harald,Mr,male,4,6,347088,27,90,U,Southampton,0
+67,True,Second,Nye, (Elizabeth Ramell),Mrs,female,29,1,C.A. 29395,10,50,F,Southampton,0
+68,False,Third,Crease, Ernest James,Mr,male,19,1,S.P. 3464,8,16,U,Southampton,0
+69,True,Third,Andersson, Erna Alexandra,Miss,female,17,7,3101281,7,93,U,Southampton,0
+70,False,Third,Kink, Vincenz,Mr,male,26,3,315151,8,66,U,Southampton,0
+71,False,Second,Jenkin, Stephen Curnow,Mr,male,32,1,C.A. 33111,10,50,U,Southampton,0
+72,False,Third,Goodwin, Lillian Amy,Miss,female,16,8,CA 2144,46,90,U,Southampton,0
+73,False,Second,Hood, Ambrose Jr,Mr,male,21,1,S.O.C. 14879,73,50,U,Southampton,0
+74,False,Third,Chronopoulos, Apostolos,Mr,male,26,2,2680,14,45,U,Cherbourg,0
+75,True,Third,Bing, Lee,Mr,male,32,1,1601,56,50,U,Southampton,0
+76,False,Third,Moen, Sigurd Hansen,Mr,male,25,1,348123,7,65,F,Southampton,0
+80,True,Third,Dowdell, Elizabeth,Miss,female,30,1,364516,12,48,U,Southampton,0
+81,False,Third,Waelens, Achille,Mr,male,22,1,345767,9,00,U,Southampton,0
+82,True,Third,Sheerlinck, Jan Baptist,Mr,male,29,1,345779,9,50,U,Southampton,0
+84,False,First,Carrau, Francisco M,Mr,male,28,1,113059,47,10,U,Southampton,0
+85,True,Second,Ilett, Bertha,Miss,female,17,1,SO/C 14885,10,50,U,Southampton,0
+86,True,Third,Backstrom, Karl Alfred (Maria Mathilda Gustafsson),Mrs,female,33,4,3101278,15,85,U,Southampton,0
+87,False,Third,Ford, William Neal,Mr,male,16,5,W./C. 6608,34,38,U,Southampton,0
+89,True,First,Fortune, Mabel Helen,Miss,female,23,6,19950,263,00,C,Southampton,0
+90,False,Third,Celotti, Francesco,Mr,male,24,1,343275,8,05,U,Southampton,0
+91,False,Third,Christmann, Emil,Mr,male,29,1,343276,8,05,U,Southampton,0
+92,False,Third,Andreasson, Paul Edvin,Mr,male,20,1,347466,7,85,U,Southampton,0
+93,False,First,Chaffee, Herbert Fuller,Mr,male,46,2,W.E.P. 5734,61,18,E,Southampton,0
+94,False,Third,Dean, Bertram Frank,Mr,male,26,4,C.A. 2315,20,58,U,Southampton,0
+95,False,Third,Coxon, Daniel,Mr,male,59,1,364500,7,25,U,Southampton,0
+97,False,First,Goldschmidt, George B,Mr,male,71,1,PC 17754,34,65,A,Cherbourg,0
+98,True,First,Greenfield, William Bertram,Mr,male,23,2,PC 17759,63,36,D,Cherbourg,0
+99,True,Second,Doling, John T (Ada Julia Bone),Mrs,female,34,2,231919,23,00,U,Southampton,1
+100,False,Second,Kantor, Sinai,Mr,male,34,2,244367,26,00,U,Southampton,0
+101,False,Third,Petranec, Matilda,Miss,female,28,1,349245,7,90,U,Southampton,0
+103,False,First,White, Richard Frasar,Mr,male,21,2,35281,77,29,D,Southampton,0
+104,False,Third,Johansson, Gustaf Joel,Mr,male,33,1,7540,8,65,U,Southampton,0
+105,False,Third,Gustafsson, Anders Vilhelm,Mr,male,37,3,3101276,7,93,U,Southampton,0
+106,False,Third,Mionoff, Stoytcho,Mr,male,28,1,349207,7,90,U,Southampton,0
+107,True,Third,Salkjelsvik, Anna Kristine,Miss,female,21,1,343120,7,65,U,Southampton,0
+109,False,Third,Rekic, Tido,Mr,male,38,1,349249,7,90,U,Southampton,0
+111,False,First,Porter, Walter Chamberlain,Mr,male,47,1,110465,52,00,C,Southampton,0
+112,False,Third,Zabour, Hileni,Miss,female,14,2,2665,14,45,U,Cherbourg,0
+113,False,Third,Barton, David John,Mr,male,22,1,324669,8,05,U,Southampton,0
+114,False,Third,Jussila, Katriina,Miss,female,20,2,4136,9,83,U,Southampton,1
+115,False,Third,Attalah, Malake,Miss,female,17,1,2627,14,46,U,Cherbourg,0
+116,False,Third,Pekoniemi, Edvard,Mr,male,21,1,STON/O 2. 3101294,7,93,U,Southampton,0
+117,False,Third,Connors, Patrick,Mr,male,70,1,370369,7,75,U,Queenstown,0
+118,False,Second,Turpin, William John Robert,Mr,male,29,2,11668,21,00,U,Southampton,0
+119,False,First,Baxter, Quigg Edmond,Mr,male,24,2,PC 17558,247,52,B,Cherbourg,0
+120,False,Third,Andersson, Ellis Anna Maria,Miss,female,2,7,347082,31,28,U,Southampton,0
+121,False,Second,Hickman, Stanley George,Mr,male,21,3,S.O.C. 14879,73,50,U,Southampton,0
+123,False,Second,Nasser, Nicholas,Mr,male,32,2,237736,30,07,U,Cherbourg,0
+124,True,Second,Webber, Susan,Miss,female,32,1,27267,13,00,E,Southampton,0
+125,False,First,White, Percival Wayland,Mr,male,54,2,35281,77,29,D,Southampton,0
+126,True,Third,Nicola-Yarred, Elias,Mr,male,12,2,2651,11,24,U,Cherbourg,0
+128,True,Third,Madsen, Fridtjof Arne,Mr,male,24,1,C 17369,7,14,U,Southampton,0
+130,False,Third,Ekstrom, Johan,Mr,male,45,1,347061,6,98,U,Southampton,0
+131,False,Third,Drazenoic, Jozef,Mr,male,33,1,349241,7,90,U,Cherbourg,0
+132,False,Third,Coelho, Domingos Fernandeo,Mr,male,20,1,SOTON/O.Q. 3101307,7,05,U,Southampton,0
+133,False,Third,Robins, Alexander A (Grace Charity Laury),Mrs,female,47,2,A/5. 3337,14,50,U,Southampton,1
+134,True,Second,Weisz, Leopold (Mathilde Francoise Pede),Mrs,female,29,2,228414,26,00,U,Southampton,1
+135,False,Second,Sobey, Samuel James Hayden,Mr,male,25,1,C.A. 29178,13,00,U,Southampton,0
+136,False,Second,Richard, Emile,Mr,male,23,1,SC/PARIS 2133,15,05,U,Cherbourg,0
+137,True,First,Newsom, Helen Monypeny,Miss,female,19,3,11752,26,28,D,Southampton,0
+138,False,First,Futrelle, Jacques Heath,Mr,male,37,2,113803,53,10,C,Southampton,0
+139,False,Third,Osen, Olaf Elon,Mr,male,16,1,7534,9,22,U,Southampton,0
+140,False,First,Giglio, Victor,Mr,male,24,1,PC 17593,79,20,B,Cherbourg,0
+142,True,Third,Nysten, Anna Sofia,Miss,female,22,1,347081,7,75,U,Southampton,0
+143,True,Third,Hakkarainen, Pekka Pietari (Elin Matilda Dolck),Mrs,female,24,2,STON/O2. 3101279,15,85,U,Southampton,0
+144,False,Third,Burke, Jeremiah,Mr,male,19,1,365222,6,75,U,Queenstown,0
+145,False,Second,Andrew, Edgardo Samuel,Mr,male,18,1,231945,11,50,U,Southampton,0
+146,False,Second,Nicholls, Joseph Charles,Mr,male,19,3,C.A. 33112,36,75,U,Southampton,0
+147,True,Third,Andersson, August Edvard ("Wennerstrom"),Mr,male,27,1,350043,7,80,U,Southampton,0
+148,False,Third,Ford, Robina Maggie "Ruby",Miss,female,9,5,W./C. 6608,34,38,U,Southampton,0
+149,False,Second,Navratil, Michel ("Louis M Hoffman"),Mr,male,36,3,230080,26,00,F,Southampton,0
+150,False,Second,Byles, Thomas Roussel Davids,Mr,male,42,1,244310,13,00,U,Southampton,0
+151,False,Second,Bateman, Robert James,Mr,male,51,1,S.O.P. 1166,12,53,U,Southampton,0
+152,True,First,Pears, Thomas (Edith Wearne),Mrs,female,22,2,113776,66,60,C,Southampton,0
+153,False,Third,Meo, Alfonzo,Mr,male,55,1,A.5. 11206,8,05,U,Southampton,0
+154,False,Third,van Billiard, Austin Blyler,Mr,male,40,3,A/5. 851,14,50,U,Southampton,0
+156,False,First,Williams, Charles Duane,Mr,male,51,2,PC 17597,61,38,U,Cherbourg,0
+157,True,Third,Gilnagh, Katherine "Katie",Miss,female,16,1,35851,7,73,U,Queenstown,0
+158,False,Third,Corn, Harry,Mr,male,30,1,SOTON/OQ 392090,8,05,U,Southampton,0
+161,False,Third,Cribb, John Hatfield,Mr,male,44,2,371362,16,10,U,Southampton,0
+162,True,Second,Watt, James (Elizabeth "Bessie" Inglis Milne),Mrs,female,40,1,C.A. 33595,15,75,U,Southampton,0
+163,False,Third,Bengtsson, John Viktor,Mr,male,26,1,347068,7,78,U,Southampton,0
+164,False,Third,Calic, Jovo,Mr,male,17,1,315093,8,66,U,Southampton,0
+165,False,Third,Panula, Eino Viljami,Mr,male,1,6,3101295,39,69,U,Southampton,0
+166,True,Third,Goldsmith, Frank John William "Frankie",Mr,male,9,3,363291,20,53,U,Southampton,0
+168,False,Third,Skoog, William (Anna Bernhardina Karlsson),Mrs,female,45,6,347088,27,90,U,Southampton,1
+170,False,Third,Ling, Lee,Mr,male,28,1,1601,56,50,U,Southampton,0
+171,False,First,Van der hoef, Wyckoff,Mr,male,61,1,111240,33,50,B,Southampton,0
+172,False,Third,Rice, Arthur,Mr,male,4,6,382652,29,13,U,Queenstown,0
+173,True,Third,Johnson, Eleanor Ileen,Miss,female,1,3,347742,11,13,U,Southampton,0
+174,False,Third,Sivola, Antti Wilhelm,Mr,male,21,1,STON/O 2. 3101280,7,93,U,Southampton,0
+175,False,First,Smith, James Clinch,Mr,male,56,1,17764,30,70,A,Cherbourg,0
+176,False,Third,Klasen, Klas Albin,Mr,male,18,3,350404,7,85,U,Southampton,0
+178,False,First,Isham, Ann Elizabeth,Miss,female,50,1,PC 17595,28,71,C,Cherbourg,0
+179,False,Second,Hale, Reginald,Mr,male,30,1,250653,13,00,U,Southampton,0
+183,False,Third,Asplund, Clarence Gustaf Hugo,Mr,male,9,7,347077,31,39,U,Southampton,0
+184,True,Second,Becker, Richard F,Mr,male,1,4,230136,39,00,F,Southampton,0
+185,True,Third,Kink-Heilmann, Luise Gretchen,Miss,female,4,3,315153,22,03,U,Southampton,0
+188,True,First,Romaine, Charles Hallace ("Mr C Rolmane"),Mr,male,45,1,111428,26,55,U,Southampton,0
+189,False,Third,Bourke, John,Mr,male,40,3,364849,15,50,U,Queenstown,0
+190,False,Third,Turcin, Stjepan,Mr,male,36,1,349247,7,90,U,Southampton,0
+191,True,Second,Pinsky, (Rosa),Mrs,female,32,1,234604,13,00,U,Southampton,0
+192,False,Second,Carbines, William,Mr,male,19,1,28424,13,00,U,Southampton,0
+193,True,Third,Andersen-Jensen, Carla Christine Nielsine,Miss,female,19,2,350046,7,85,U,Southampton,1
+194,True,Second,Navratil, Michel M,Mr,male,3,3,230080,26,00,F,Southampton,0
+195,True,First,Brown, James Joseph (Margaret Tobin),Mrs,female,44,1,PC 17610,27,72,B,Cherbourg,0
+196,True,First,Lurette, Elise,Miss,female,58,1,PC 17569,146,52,B,Cherbourg,0
+198,False,Third,Olsen, Karl Siegwart Andreas,Mr,male,42,2,4579,8,40,U,Southampton,0
+200,False,Second,Yrois, Henriette ("Mrs Harbeck"),Miss,female,24,1,248747,13,00,U,Southampton,0
+201,False,Third,Vande Walle, Nestor Cyriel,Mr,male,28,1,345770,9,50,U,Southampton,0
+203,False,Third,Johanson, Jakob Alfred,Mr,male,34,1,3101264,6,50,U,Southampton,0
+204,False,Third,Youseff, Gerious,Mr,male,45,1,2628,7,23,U,Cherbourg,0
+205,True,Third,Cohen, Gurshon "Gus",Mr,male,18,1,A/5 3540,8,05,U,Southampton,0
+206,False,Third,Strom, Telma Matilda,Miss,female,2,2,347054,10,46,G,Southampton,0
+207,False,Third,Backstrom, Karl Alfred,Mr,male,32,2,3101278,15,85,U,Southampton,0
+208,True,Third,Albimona, Nassef Cassem,Mr,male,26,1,2699,18,79,U,Cherbourg,0
+209,True,Third,Carr, Helen "Ellen",Miss,female,16,1,367231,7,75,U,Queenstown,0
+210,True,First,Blank, Henry,Mr,male,40,1,112277,31,00,A,Cherbourg,0
+211,False,Third,Ali, Ahmed,Mr,male,24,1,SOTON/O.Q. 3101311,7,05,U,Southampton,0
+212,True,Second,Cameron, Clear Annie,Miss,female,35,1,F.C.C. 13528,21,00,U,Southampton,0
+213,False,Third,Perkin, John Henry,Mr,male,22,1,A/5 21174,7,25,U,Southampton,0
+214,False,Second,Givard, Hans Kristensen,Mr,male,30,1,250646,13,00,U,Southampton,0
+216,True,First,Newell, Madeleine,Miss,female,31,2,35273,113,28,D,Cherbourg,0
+217,True,Third,Honkanen, Eliina,Miss,female,27,1,STON/O2. 3101283,7,93,U,Southampton,0
+218,False,Second,Jacobsohn, Sidney Samuel,Mr,male,42,2,243847,27,00,U,Southampton,0
+219,True,First,Bazzani, Albina,Miss,female,32,1,11813,76,29,D,Cherbourg,0
+220,False,Second,Harris, Walter,Mr,male,30,1,W/C 14208,10,50,U,Southampton,0
+221,True,Third,Sunderland, Victor Francis,Mr,male,16,1,SOTON/OQ 392089,8,05,U,Southampton,0
+222,False,Second,Bracken, James H,Mr,male,27,1,220367,13,00,U,Southampton,0
+223,False,Third,Green, George Henry,Mr,male,51,1,21440,8,05,U,Southampton,0
+225,True,First,Hoyt, Frederick Maxfield,Mr,male,38,2,19943,90,00,C,Southampton,0
+226,False,Third,Berglund, Karl Ivar Sven,Mr,male,22,1,PP 4348,9,35,U,Southampton,0
+227,True,Second,Mellors, William John,Mr,male,19,1,SW/PP 751,10,50,U,Southampton,0
+228,False,Third,Lovell, John Hall ("Henry"),Mr,male,20,1,A/5 21173,7,25,U,Southampton,0
+229,False,Second,Fahlstrom, Arne Jonas,Mr,male,18,1,236171,13,00,U,Southampton,0
+231,True,First,Harris, Henry Birkhardt (Irene Wallach),Mrs,female,35,2,36973,83,48,C,Southampton,0
+232,False,Third,Larsson, Bengt Edvin,Mr,male,29,1,347067,7,78,U,Southampton,0
+233,False,Second,Sjostedt, Ernst Adolf,Mr,male,59,1,237442,13,50,U,Southampton,0
+234,True,Third,Asplund, Lillian Gertrud,Miss,female,5,7,347077,31,39,U,Southampton,0
+235,False,Second,Leyson, Robert William Norman,Mr,male,24,1,C.A. 29566,10,50,U,Southampton,0
+237,False,Second,Hold, Stephen,Mr,male,44,2,26707,26,00,U,Southampton,0
+238,True,Second,Collyer, Marjorie "Lottie",Miss,female,8,3,C.A. 31921,26,25,U,Southampton,0
+239,False,Second,Pengelly, Frederick William,Mr,male,19,1,28665,10,50,U,Southampton,0
+240,False,Second,Hunt, George Henry,Mr,male,33,1,SCO/W 1585,12,28,U,Southampton,0
+243,False,Second,Coleridge, Reginald Charles,Mr,male,29,1,W./C. 14263,10,50,U,Southampton,0
+244,False,Third,Maenpaa, Matti Alexanteri,Mr,male,22,1,STON/O 2. 3101275,7,13,U,Southampton,0
+245,False,Third,Attalah, Sleiman,Mr,male,30,1,2694,7,23,U,Cherbourg,0
+246,False,First,Minahan, William Edward,Mr,male,44,3,19928,90,00,C,Queenstown,0
+247,False,Third,Lindahl, Agda Thorilda Viktoria,Miss,female,25,1,347071,7,78,U,Southampton,0
+248,True,Second,Hamalainen, William (Anna),Mrs,female,24,3,250649,14,50,U,Southampton,1
+249,True,First,Beckwith, Richard Leonard,Mr,male,37,3,11751,52,55,D,Southampton,0
+250,False,Second,Carter, Ernest Courtenay,Mr,male,54,2,244252,26,00,U,Southampton,0
+252,False,Third,Strom, Wilhelm (Elna Matilda Persson),Mrs,female,29,3,347054,10,46,G,Southampton,1
+253,False,First,Stead, William Thomas,Mr,male,62,1,113514,26,55,C,Southampton,0
+254,False,Third,Lobb, William Arthur,Mr,male,30,2,A/5. 3336,16,10,U,Southampton,0
+255,False,Third,Rosblom, Viktor (Helena Wilhelmina),Mrs,female,41,3,370129,20,21,U,Southampton,0
+256,True,Third,Touma, Darwis (Hanne Youssef Razi),Mrs,female,29,3,2650,15,25,U,Cherbourg,0
+258,True,First,Cherry, Gladys,Miss,female,30,1,110152,86,50,B,Southampton,0
+259,True,First,Ward, Anna,Miss,female,35,1,PC 17755,512,33,U,Cherbourg,0
+260,True,Second,Parrish, (Lutie Davis),Mrs,female,50,2,230433,26,00,U,Southampton,1
+262,True,Third,Asplund, Edvin Rojj Felix,Mr,male,3,7,347077,31,39,U,Southampton,0
+263,False,First,Taussig, Emil,Mr,male,52,3,110413,79,65,E,Southampton,0
+266,False,Second,Reeves, David,Mr,male,36,1,C.A. 17248,10,50,U,Southampton,0
+267,False,Third,Panula, Ernesti Arvid,Mr,male,16,6,3101295,39,69,U,Southampton,0
+268,True,Third,Persson, Ernst Ulrik,Mr,male,25,2,347083,7,78,U,Southampton,0
+269,True,First,Graham, William Thompson (Edith Junkins),Mrs,female,58,2,PC 17582,153,46,C,Southampton,0
+270,True,First,Bissette, Amelia,Miss,female,35,1,PC 17760,135,63,C,Southampton,0
+273,True,Second,Mellinger, (Elizabeth Anne Maidment),Mrs,female,41,2,250644,19,50,U,Southampton,1
+274,False,First,Natsch, Charles H,Mr,male,37,2,PC 17596,29,70,C,Cherbourg,0
+276,True,First,Andrews, Kornelia Theodosia,Miss,female,63,2,13502,77,96,D,Southampton,1
+277,False,Third,Lindblom, Augusta Charlotta,Miss,female,45,1,347073,7,75,U,Southampton,0
+279,False,Third,Rice, Eric,Mr,male,7,6,382652,29,13,U,Queenstown,0
+280,True,Third,Abbott, Stanton (Rosa Hunt),Mrs,female,35,3,C.A. 2673,20,25,U,Southampton,1
+281,False,Third,Duane, Frank,Mr,male,65,1,336439,7,75,U,Queenstown,0
+282,False,Third,Olsson, Nils Johan Goransson,Mr,male,28,1,347464,7,85,U,Southampton,0
+283,False,Third,de Pelsmaeker, Alfons,Mr,male,16,1,345778,9,50,U,Southampton,0
+284,True,Third,Dorking, Edward Arthur,Mr,male,19,1,A/5. 10482,8,05,U,Southampton,0
+286,False,Third,Stankovic, Ivan,Mr,male,33,1,349239,8,66,U,Cherbourg,0
+287,True,Third,de Mulder, Theodore,Mr,male,30,1,345774,9,50,U,Southampton,0
+288,False,Third,Naidenoff, Penko,Mr,male,22,1,349206,7,90,U,Southampton,0
+289,True,Second,Hosono, Masabumi,Mr,male,42,1,237798,13,00,U,Southampton,0
+290,True,Third,Connolly, Kate,Miss,female,22,1,370373,7,75,U,Queenstown,0
+291,True,First,Barber, Ellen "Nellie",Miss,female,26,1,19877,78,85,U,Southampton,0
+292,True,First,Bishop, Dickinson H (Helen Walton),Mrs,female,19,2,11967,91,08,B,Cherbourg,0
+293,False,Second,Levy, Rene Jacques,Mr,male,36,1,SC/Paris 2163,12,88,D,Cherbourg,0
+294,False,Third,Haas, Aloisia,Miss,female,24,1,349236,8,85,U,Southampton,0
+295,False,Third,Mineff, Ivan,Mr,male,24,1,349233,7,90,U,Southampton,0
+297,False,Third,Hanna, Mansour,Mr,male,23,1,2693,7,23,U,Cherbourg,0
+298,False,First,Allison, Helen Loraine,Miss,female,2,4,113781,151,55,C,Southampton,0
+300,True,First,Baxter, James (Helene DeLaudeniere Chaput),Mrs,female,50,2,PC 17558,247,52,B,Cherbourg,0
+308,True,First,Penasco y Castellana, Victor de Satode (Maria Josefa Perez de Soto y Vallejo),Mrs,female,17,2,PC 17758,108,90,C,Cherbourg,0
+309,False,Second,Abelson, Samuel,Mr,male,30,2,P/PP 3381,24,00,U,Cherbourg,0
+310,True,First,Francatelli, Laura Mabel,Miss,female,30,1,PC 17485,56,93,E,Cherbourg,0
+311,True,First,Hays, Margaret Bechstein,Miss,female,24,1,11767,83,16,C,Cherbourg,0
+312,True,First,Ryerson, Emily Borie,Miss,female,18,5,PC 17608,262,38,B,Cherbourg,0
+313,False,Second,Lahtinen, William (Anna Sylfven),Mrs,female,26,3,250651,26,00,U,Southampton,0
+314,False,Third,Hendekovic, Ignjac,Mr,male,28,1,349243,7,90,U,Southampton,0
+315,False,Second,Hart, Benjamin,Mr,male,43,3,F.C.C. 13529,26,25,U,Southampton,0
+316,True,Third,Nilsson, Helmina Josefina,Miss,female,26,1,347470,7,85,U,Southampton,0
+317,True,Second,Kantor, Sinai (Miriam Sternin),Mrs,female,24,2,244367,26,00,U,Southampton,0
+318,False,Second,Moraweck, Ernest,Mr,male,54,1,29011,14,00,U,Southampton,0
+319,True,First,Wick, Mary Natalie,Miss,female,31,3,36928,164,87,C,Southampton,0
+320,True,First,Spedden, Frederic Oakley (Margaretta Corning Stone),Mrs,female,40,3,16966,134,50,E,Cherbourg,0
+321,False,Third,Dennis, Samuel,Mr,male,22,1,A/5 21172,7,25,U,Southampton,0
+322,False,Third,Danoff, Yoto,Mr,male,27,1,349219,7,90,U,Southampton,0
+323,True,Second,Slayter, Hilda Mary,Miss,female,30,1,234818,12,35,U,Queenstown,0
+324,True,Second,Caldwell, Albert Francis (Sylvia Mae Harbaugh),Mrs,female,22,3,248738,29,00,U,Southampton,1
+326,True,First,Young, Marie Grice,Miss,female,36,1,PC 17760,135,63,C,Cherbourg,0
+327,False,Third,Nysveen, Johan Hansen,Mr,male,61,1,345364,6,24,U,Southampton,0
+328,True,Second,Ball, (Ada E Hall),Mrs,female,36,1,28551,13,00,D,Southampton,0
+329,True,Third,Goldsmith, Frank John (Emily Alice Brown),Mrs,female,31,3,363291,20,53,U,Southampton,1
+330,True,First,Hippach, Jean Gertrude,Miss,female,16,2,111361,57,98,B,Cherbourg,0
+332,False,First,Partner, Austen,Mr,male,45,1,113043,28,50,C,Southampton,0
+333,False,First,Graham, George Edward,Mr,male,38,2,PC 17582,153,46,C,Southampton,0
+334,False,Third,Vander Planke, Leo Edmondus,Mr,male,16,3,345764,18,00,U,Southampton,0
+337,False,First,Pears, Thomas Clinton,Mr,male,29,2,113776,66,60,C,Southampton,0
+338,True,First,Burns, Elizabeth Margaret,Miss,female,41,1,16966,134,50,E,Cherbourg,0
+339,True,Third,Dahl, Karl Edwart,Mr,male,45,1,7598,8,05,U,Southampton,0
+340,False,First,Blackwell, Stephen Weart,Mr,male,45,1,113784,35,50,U,Southampton,0
+341,True,Second,Navratil, Edmond Roger,Mr,male,2,3,230080,26,00,F,Southampton,0
+342,True,First,Fortune, Alice Elizabeth,Miss,female,24,6,19950,263,00,C,Southampton,0
+343,False,Second,Collander, Erik Gustaf,Mr,male,28,1,248740,13,00,U,Southampton,0
+344,False,Second,Sedgwick, Charles Frederick Waddington,Mr,male,25,1,244361,13,00,U,Southampton,0
+345,False,Second,Fox, Stanley Hubert,Mr,male,36,1,229236,13,00,U,Southampton,0
+346,True,Second,Brown, Amelia "Mildred",Miss,female,24,1,248733,13,00,F,Southampton,0
+347,True,Second,Smith, Marion Elsie,Miss,female,40,1,31418,13,00,U,Southampton,0
+349,True,Third,Coutts, William Loch "William",Mr,male,3,3,C.A. 37671,15,90,U,Southampton,0
+350,False,Third,Dimic, Jovan,Mr,male,42,1,315088,8,66,U,Southampton,0
+351,False,Third,Odahl, Nils Martin,Mr,male,23,1,7267,9,23,U,Southampton,0
+353,False,Third,Elias, Tannous,Mr,male,15,3,2695,7,23,U,Cherbourg,0
+354,False,Third,Arnold-Franchi, Josef,Mr,male,25,2,349237,17,80,U,Southampton,0
+356,False,Third,Vanden Steen, Leo Peter,Mr,male,28,1,345783,9,50,U,Southampton,0
+357,True,First,Bowerman, Elsie Edith,Miss,female,22,2,113505,55,00,E,Southampton,1
+358,False,Second,Funk, Annie Clemmer,Miss,female,38,1,237671,13,00,U,Southampton,0
+361,False,Third,Skoog, Wilhelm,Mr,male,40,6,347088,27,90,U,Southampton,0
+362,False,Second,del Carlo, Sebastiano,Mr,male,29,2,SC/PARIS 2167,27,72,U,Cherbourg,0
+363,False,Third,Barbara, (Catherine David),Mrs,female,45,2,2691,14,45,U,Cherbourg,1
+364,False,Third,Asim, Adola,Mr,male,35,1,SOTON/O.Q. 3101310,7,05,U,Southampton,0
+366,False,Third,Adahl, Mauritz Nils Martin,Mr,male,30,1,C 7076,7,25,U,Southampton,0
+367,True,First,Warren, Frank Manley (Anna Sophia Atkinson),Mrs,female,60,2,110813,75,25,D,Cherbourg,1
+370,True,First,Aubart, Leontine Pauline,Mrs,female,24,1,PC 17477,69,30,B,Cherbourg,0
+371,True,First,Harder, George Achilles,Mr,male,25,2,11765,55,44,E,Cherbourg,0
+372,False,Third,Wiklund, Jakob Alfred,Mr,male,18,2,3101267,6,50,U,Southampton,0
+373,False,Third,Beavan, William Thomas,Mr,male,19,1,323951,8,05,U,Southampton,0
+374,False,First,Ringhini, Sante,Mr,male,22,1,PC 17760,135,63,U,Cherbourg,0
+375,False,Third,Palsson, Stina Viola,Miss,female,3,5,349909,21,08,U,Southampton,0
+377,True,Third,Landergren, Aurora Adelia,Miss,female,22,1,C 7077,7,25,U,Southampton,0
+378,False,First,Widener, Harry Elkins,Mr,male,27,3,113503,211,50,C,Cherbourg,0
+379,False,Third,Betros, Tannous,Mr,male,20,1,2648,4,01,U,Cherbourg,0
+380,False,Third,Gustafsson, Karl Gideon,Mr,male,19,1,347069,7,78,U,Southampton,0
+381,True,First,Bidois, Rosalie,Miss,female,42,1,PC 17757,227,53,U,Cherbourg,0
+382,True,Third,Nakid, Maria ("Mary"),Miss,female,1,3,2653,15,74,U,Cherbourg,0
+383,False,Third,Tikkanen, Juho,Mr,male,32,1,STON/O 2. 3101293,7,93,U,Southampton,0
+384,True,First,Holverson, Alexander Oskar (Mary Aline Towner),Mrs,female,35,2,113789,52,00,U,Southampton,0
+386,False,Second,Davies, Charles Henry,Mr,male,18,1,S.O.C. 14879,73,50,U,Southampton,0
+387,False,Third,Goodwin, Sidney Leonard,Mr,male,1,8,CA 2144,46,90,U,Southampton,0
+388,True,Second,Buss, Kate,Miss,female,36,1,27849,13,00,U,Southampton,0
+390,True,Second,Lehmann, Bertha,Miss,female,17,1,SC 1748,12,00,U,Cherbourg,0
+391,True,First,Carter, William Ernest,Mr,male,36,4,113760,120,00,B,Southampton,0
+392,True,Third,Jansson, Carl Olof,Mr,male,21,1,350034,7,80,U,Southampton,0
+393,False,Third,Gustafsson, Johan Birger,Mr,male,28,3,3101277,7,93,U,Southampton,0
+394,True,First,Newell, Marjorie,Miss,female,23,2,35273,113,28,D,Cherbourg,0
+395,True,Third,Sandstrom, Hjalmar (Agnes Charlotta Bengtsson),Mrs,female,24,3,PP 9549,16,70,G,Southampton,1
+396,False,Third,Johansson, Erik,Mr,male,22,1,350052,7,80,U,Southampton,0
+397,False,Third,Olsson, Elina,Miss,female,31,1,350407,7,85,U,Southampton,0
+398,False,Second,McKane, Peter David,Mr,male,46,1,28403,26,00,U,Southampton,0
+399,False,Second,Pain, Alfred,Mr,male,23,1,244278,10,50,U,Southampton,0
+400,True,Second,Trout, William H (Jessie L),Mrs,female,28,1,240929,12,65,U,Southampton,0
+401,True,Third,Niskanen, Juha,Mr,male,39,1,STON/O 2. 3101289,7,93,U,Southampton,0
+402,False,Third,Adams, John,Mr,male,26,1,341826,8,05,U,Southampton,0
+403,False,Third,Jussila, Mari Aina,Miss,female,21,2,4137,9,83,U,Southampton,1
+404,False,Third,Hakkarainen, Pekka Pietari,Mr,male,28,2,STON/O2. 3101279,15,85,U,Southampton,0
+405,False,Third,Oreskovic, Marija,Miss,female,20,1,315096,8,66,U,Southampton,0
+406,False,Second,Gale, Shadrach,Mr,male,34,2,28664,21,00,U,Southampton,0
+407,False,Third,Widegren, Carl/Charles Peter,Mr,male,51,1,347064,7,75,U,Southampton,0
+408,True,Second,Richards, William Rowe,Mr,male,3,3,29106,18,75,U,Southampton,0
+409,False,Third,Birkeland, Hans Martin Monsen,Mr,male,21,1,312992,7,78,U,Southampton,0
+413,True,First,Minahan, Daisy E,Miss,female,33,2,19928,90,00,C,Queenstown,0
+415,True,Third,Sundman, Johan Julian,Mr,male,44,1,STON/O 2. 3101269,7,93,U,Southampton,0
+417,True,Second,Drew, James Vivian (Lulu Thorne Christian),Mrs,female,34,3,28220,32,50,U,Southampton,0
+418,True,Second,Silven, Lyyli Karoliina,Miss,female,18,3,250652,13,00,U,Southampton,0
+419,False,Second,Matthews, William John,Mr,male,30,1,28228,13,00,U,Southampton,0
+420,False,Third,Van Impe, Catharina,Miss,female,10,3,345773,24,15,U,Southampton,0
+422,False,Third,Charters, David,Mr,male,21,1,A/5. 13032,7,73,U,Queenstown,0
+423,False,Third,Zimmerman, Leo,Mr,male,29,1,315082,7,88,U,Southampton,0
+424,False,Third,Danbom, Ernst Gilbert (Anna Sigrid Maria Brogren),Mrs,female,28,3,347080,14,40,U,Southampton,0
+425,False,Third,Rosblom, Viktor Richard,Mr,male,18,3,370129,20,21,U,Southampton,0
+427,True,Second,Clarke, Charles V (Ada Maria Winfield),Mrs,female,28,2,2003,26,00,U,Southampton,1
+428,True,Second,Phillips, Kate Florence ("Mrs Kate Louise Phillips Marshall"),Miss,female,19,1,250655,26,00,U,Southampton,0
+430,True,Third,Pickard, Berk (Berk Trembisky),Mr,male,32,1,SOTON/O.Q. 392078,8,05,E,Southampton,0
+431,True,First,Bjornstrom-Steffansson, Mauritz Hakan,Mr,male,28,1,110564,26,55,C,Southampton,0
+433,True,Second,Louch, Charles Alexander (Alice Adelaide Slow),Mrs,female,42,2,SC/AH 3085,26,00,U,Southampton,1
+434,False,Third,Kallio, Nikolai Erland,Mr,male,17,1,STON/O 2. 3101274,7,13,U,Southampton,0
+435,False,First,Silvey, William Baird,Mr,male,50,2,13507,55,90,E,Southampton,0
+436,True,First,Carter, Lucile Polk,Miss,female,14,4,113760,120,00,B,Southampton,0
+437,False,Third,Ford, Doolina Margaret "Daisy",Miss,female,21,5,W./C. 6608,34,38,U,Southampton,1
+438,True,Second,Richards, Sidney (Emily Hocking),Mrs,female,24,6,29106,18,75,U,Southampton,1
+439,False,First,Fortune, Mark,Mr,male,64,6,19950,263,00,C,Southampton,0
+440,False,Second,Kvillner, Johan Henrik Johannesson,Mr,male,31,1,C.A. 18723,10,50,U,Southampton,0
+441,True,Second,Hart, Benjamin (Esther Ada Bloomfield),Mrs,female,45,3,F.C.C. 13529,26,25,U,Southampton,1
+442,False,Third,Hampe, Leon,Mr,male,20,1,345769,9,50,U,Southampton,0
+443,False,Third,Petterson, Johan Emil,Mr,male,25,2,347076,7,78,U,Southampton,0
+444,True,Second,Reynaldo, Encarnacion,Miss,female,28,1,230434,13,00,U,Southampton,0
+446,True,First,Dodge, Washington,Mr,male,4,3,33638,81,86,A,Southampton,0
+447,True,Second,Mellinger, Madeleine Violet,Miss,female,13,2,250644,19,50,U,Southampton,0
+448,True,First,Seward, Frederic Kimber,Mr,male,34,1,113794,26,55,U,Southampton,0
+449,True,Third,Baclini, Marie Catherine,Miss,female,5,4,2666,19,26,U,Cherbourg,0
+450,True,First,Peuchen, Arthur Godfrey,Mr,male,52,1,113786,30,50,C,Southampton,0
+451,False,Second,West, Edwy Arthur,Mr,male,36,4,C.A. 34651,27,75,U,Southampton,0
+453,False,First,Foreman, Benjamin Laventall,Mr,male,30,1,113051,27,75,C,Cherbourg,0
+454,True,First,Goldenberg, Samuel L,Mr,male,49,2,17453,89,10,C,Cherbourg,0
+456,True,Third,Jalsevac, Ivan,Mr,male,29,1,349240,7,90,U,Cherbourg,0
+457,False,First,Millet, Francis Davis,Mr,male,65,1,13509,26,55,E,Southampton,0
+459,True,Second,Toomey, Ellen,Miss,female,50,1,F.C.C. 13531,10,50,U,Southampton,0
+461,True,First,Anderson, Harry,Mr,male,48,1,19952,26,55,E,Southampton,0
+462,False,Third,Morley, William,Mr,male,34,1,364506,8,05,U,Southampton,0
+463,False,First,Gee, Arthur H,Mr,male,47,1,111320,38,50,E,Southampton,0
+464,False,Second,Milling, Jacob Christian,Mr,male,48,1,234360,13,00,U,Southampton,0
+466,False,Third,Goncalves, Manuel Estanslas,Mr,male,38,1,SOTON/O.Q. 3101306,7,05,U,Southampton,0
+468,False,First,Smart, John Montgomery,Mr,male,56,1,113792,26,55,U,Southampton,0
+472,False,Third,Cacic, Luka,Mr,male,38,1,315089,8,66,U,Southampton,0
+473,True,Second,West, Edwy Arthur (Ada Mary Worth),Mrs,female,33,4,C.A. 34651,27,75,U,Southampton,1
+474,True,Second,Jerwan, Amin S (Marie Marthe Thuillard),Mrs,female,23,1,SC/AH Basle 541,13,79,D,Cherbourg,0
+475,False,Third,Strandberg, Ida Sofia,Miss,female,22,1,7553,9,84,U,Southampton,0
+477,False,Second,Renouf, Peter Henry,Mr,male,34,2,31027,21,00,U,Southampton,0
+478,False,Third,Braund, Lewis Richard,Mr,male,29,2,3460,7,05,U,Southampton,0
+479,False,Third,Karlsson, Nils August,Mr,male,22,1,350060,7,52,U,Southampton,0
+480,True,Third,Hirvonen, Hildur E,Miss,female,2,2,3101298,12,29,U,Southampton,0
+481,False,Third,Goodwin, Harold Victor,Mr,male,9,8,CA 2144,46,90,U,Southampton,0
+483,False,Third,Rouse, Richard Henry,Mr,male,50,1,A/5 3594,8,05,U,Southampton,0
+484,True,Third,Turkula, (Hedwig),Mrs,female,63,1,4134,9,59,U,Southampton,0
+485,True,First,Bishop, Dickinson H,Mr,male,25,2,11967,91,08,B,Cherbourg,0
+487,True,First,Hoyt, Frederick Maxfield (Jane Anne Forby),Mrs,female,35,2,19943,90,00,C,Southampton,0
+488,False,First,Kent, Edward Austin,Mr,male,58,1,11771,29,70,B,Cherbourg,0
+489,False,Third,Somerton, Francis William,Mr,male,30,1,A.5. 18509,8,05,U,Southampton,0
+490,True,Third,Coutts, Eden Leslie "Neville",Mr,male,9,3,C.A. 37671,15,90,U,Southampton,0
+492,False,Third,Windelov, Einar,Mr,male,21,1,SOTON/OQ 3101317,7,25,U,Southampton,0
+493,False,First,Molson, Harry Markland,Mr,male,55,1,113787,30,50,C,Southampton,0
+494,False,First,Artagaveytia, Ramon,Mr,male,71,1,PC 17609,49,50,U,Cherbourg,0
+495,False,Third,Stanley, Edward Roland,Mr,male,21,1,A/4 45380,8,05,U,Southampton,0
+497,True,First,Eustis, Elizabeth Mussey,Miss,female,54,2,36947,78,27,D,Cherbourg,1
+499,False,First,Allison, Hudson J C (Bessie Waldo Daniels),Mrs,female,25,4,113781,151,55,C,Southampton,1
+500,False,Third,Svensson, Olof,Mr,male,24,1,350035,7,80,U,Southampton,0
+501,False,Third,Calic, Petar,Mr,male,17,1,315086,8,66,U,Southampton,0
+502,False,Third,Canavan, Mary,Miss,female,21,1,364846,7,75,U,Queenstown,0
+504,False,Third,Laitinen, Kristina Sofia,Miss,female,37,1,4135,9,59,U,Southampton,0
+505,True,First,Maioni, Roberta,Miss,female,16,1,110152,86,50,B,Southampton,0
+506,False,First,Penasco y Castellana, Victor de Satode,Mr,male,18,2,PC 17758,108,90,C,Cherbourg,0
+507,True,Second,Quick, Frederick Charles (Jane Richards),Mrs,female,33,3,26360,26,00,U,Southampton,1
+509,False,Third,Olsen, Henry Margido,Mr,male,28,1,C 4001,22,53,U,Southampton,0
+510,True,Third,Lang, Fang,Mr,male,26,1,1601,56,50,U,Southampton,0
+511,True,Third,Daly, Eugene Patrick,Mr,male,29,1,382651,7,75,U,Queenstown,0
+513,True,First,McGough, James Robert,Mr,male,36,1,PC 17473,26,29,E,Southampton,0
+514,True,First,Rothschild, Martin (Elizabeth L. Barrett),Mrs,female,54,2,PC 17603,59,40,U,Cherbourg,1
+515,False,Third,Coleff, Satio,Mr,male,24,1,349209,7,50,U,Southampton,0
+516,False,First,Walker, William Anderson,Mr,male,47,1,36967,34,02,D,Southampton,0
+517,True,Second,Lemore, (Amelia Milley),Mrs,female,34,1,C.A. 34260,10,50,F,Southampton,0
+519,True,Second,Angle, William A (Florence "Mary" Agnes Hughes),Mrs,female,36,2,226875,26,00,U,Southampton,1
+520,False,Third,Pavlovic, Stefo,Mr,male,32,1,349242,7,90,U,Southampton,0
+521,True,First,Perreault, Anne,Miss,female,30,1,12749,93,50,B,Southampton,0
+522,False,Third,Vovk, Janko,Mr,male,22,1,349252,7,90,U,Southampton,0
+524,True,First,Hippach, Louis Albert (Ida Sophia Fischer),Mrs,female,44,2,111361,57,98,B,Cherbourg,1
+526,False,Third,Farrell, James,Mr,male,40,1,367232,7,75,U,Queenstown,0
+527,True,Second,Ridsdale, Lucy,Miss,female,50,1,W./C. 14258,10,50,U,Southampton,0
+529,False,Third,Salonen, Johan Werner,Mr,male,39,1,3101296,7,93,U,Southampton,0
+530,False,Second,Hocking, Richard George,Mr,male,23,4,29104,11,50,U,Southampton,0
+531,True,Second,Quick, Phyllis May,Miss,female,2,3,26360,26,00,U,Southampton,0
+533,False,Third,Elias, Joseph Jr,Mr,male,17,3,2690,7,23,U,Cherbourg,0
+535,False,Third,Cacic, Marija,Miss,female,30,1,315084,8,66,U,Southampton,0
+536,True,Second,Hart, Eva Miriam,Miss,female,7,3,F.C.C. 13529,26,25,U,Southampton,0
+537,False,First,Butt, Archibald Willingham,Mr,male,45,1,113050,26,55,B,Southampton,0
+538,True,First,LeRoy, Bertha,Miss,female,30,1,PC 17761,106,43,U,Cherbourg,0
+540,True,First,Frolicher, Hedwig Margaritha,Miss,female,22,3,13568,49,50,B,Cherbourg,0
+541,True,First,Crosby, Harriet R,Miss,female,36,3,WE/P 5735,71,00,B,Southampton,0
+542,False,Third,Andersson, Ingeborg Constanzia,Miss,female,9,7,347082,31,28,U,Southampton,0
+543,False,Third,Andersson, Sigrid Elisabeth,Miss,female,11,7,347082,31,28,U,Southampton,0
+544,True,Second,Beane, Edward,Mr,male,32,2,2908,26,00,U,Southampton,0
+545,False,First,Douglas, Walter Donald,Mr,male,50,2,PC 17761,106,43,C,Cherbourg,0
+546,False,First,Nicholson, Arthur Ernest,Mr,male,64,1,693,26,00,U,Southampton,0
+547,True,Second,Beane, Edward (Ethel Clarke),Mrs,female,19,2,2908,26,00,U,Southampton,0
+549,False,Third,Goldsmith, Frank John,Mr,male,33,3,363291,20,53,U,Southampton,0
+550,True,Second,Davies, John Morgan Jr,Mr,male,8,3,C.A. 33112,36,75,U,Southampton,0
+551,True,First,Thayer, John Borland Jr,Mr,male,17,3,17421,110,88,C,Cherbourg,0
+552,False,Second,Sharp, Percival James R,Mr,male,27,1,244358,26,00,U,Southampton,0
+554,True,Third,Leeni, Fahim ("Philip Zenni"),Mr,male,22,1,2620,7,23,U,Cherbourg,0
+555,True,Third,Ohman, Velin,Miss,female,22,1,347085,7,78,U,Southampton,0
+556,False,First,Wright, George,Mr,male,62,1,113807,26,55,U,Southampton,0
+557,True,First,Duff Gordon, (Lucille Christiana Sutherland) ("Mrs Morgan"),Mrs,female,48,2,11755,39,60,A,Cherbourg,1
+559,True,First,Taussig, Emil (Tillie Mandelbaum),Mrs,female,39,3,110413,79,65,E,Southampton,0
+560,True,Third,de Messemaeker, Guillaume Joseph (Emma),Mrs,female,36,2,345572,17,40,U,Southampton,1
+562,False,Third,Sivic, Husein,Mr,male,40,1,349251,7,90,U,Southampton,0
+563,False,Second,Norman, Robert Douglas,Mr,male,28,1,218629,13,50,U,Southampton,0
+566,False,Third,Davies, Alfred J,Mr,male,24,3,A/4 48871,24,15,U,Southampton,0
+567,False,Third,Stoytcheff, Ilia,Mr,male,19,1,349205,7,90,U,Southampton,0
+568,False,Third,Palsson, Nils (Alma Cornelia Berglund),Mrs,female,29,5,349909,21,08,U,Southampton,1
+570,True,Third,Jonsson, Carl,Mr,male,32,1,350417,7,85,U,Southampton,0
+571,True,Second,Harris, George,Mr,male,62,1,S.W./PP 752,10,50,U,Southampton,0
+572,True,First,Appleton, Edward Dale (Charlotte Lamson),Mrs,female,53,3,11769,51,48,C,Southampton,0
+573,True,First,Flynn, John Irwin ("Irving"),Mr,male,36,1,PC 17474,26,39,E,Southampton,0
+575,False,Third,Rush, Alfred George John,Mr,male,16,1,A/4. 20589,8,05,U,Southampton,0
+576,False,Third,Patchett, George,Mr,male,19,1,358585,14,50,U,Southampton,0
+577,True,Second,Garside, Ethel,Miss,female,34,1,243880,13,00,U,Southampton,0
+578,True,First,Silvey, William Baird (Alice Munger),Mrs,female,39,2,13507,55,90,E,Southampton,0
+580,True,Third,Jussila, Eiriik,Mr,male,32,1,STON/O 2. 3101286,7,93,U,Southampton,0
+581,True,Second,Christy, Julie Rachel,Miss,female,25,3,237789,30,00,U,Southampton,0
+582,True,First,Thayer, John Borland (Marian Longstreth Morris),Mrs,female,39,3,17421,110,88,C,Cherbourg,1
+583,False,Second,Downton, William James,Mr,male,54,1,28403,26,00,U,Southampton,0
+584,False,First,Ross, John Hugo,Mr,male,36,1,13049,40,13,A,Cherbourg,0
+586,True,First,Taussig, Ruth,Miss,female,18,3,110413,79,65,E,Southampton,0
+587,False,Second,Jarvis, John Denzil,Mr,male,47,1,237565,15,00,U,Southampton,0
+588,True,First,Frolicher-Stehli, Maxmillian,Mr,male,60,3,13567,79,20,B,Cherbourg,0
+589,False,Third,Gilinski, Eliezer,Mr,male,22,1,14973,8,05,U,Southampton,0
+591,False,Third,Rintamaki, Matti,Mr,male,35,1,STON/O 2. 3101273,7,13,U,Southampton,0
+592,True,First,Stephenson, Walter Bertram (Martha Eustis),Mrs,female,52,2,36947,78,27,D,Cherbourg,1
+593,False,Third,Elsbury, William James,Mr,male,47,1,A/5 3902,7,25,U,Southampton,0
+595,False,Second,Chapman, John Henry,Mr,male,37,2,SC/AH 29037,26,00,U,Southampton,0
+596,False,Third,Van Impe, Jean Baptiste,Mr,male,36,3,345773,24,15,U,Southampton,0
+600,True,First,Duff Gordon, Cosmo Edmund ("Mr Morgan"),Mr,male,49,2,PC 17485,56,93,A,Cherbourg,0
+601,True,Second,Jacobsohn, Sidney Samuel (Amy Frances Christy),Mrs,female,24,4,243847,27,00,U,Southampton,0
+604,False,Third,Torber, Ernst William,Mr,male,44,1,364511,8,05,U,Southampton,0
+605,True,First,Homer, Harry ("Mr E Haven"),Mr,male,35,1,111426,26,55,U,Cherbourg,0
+606,False,Third,Lindell, Edvard Bengtsson,Mr,male,36,2,349910,15,55,U,Southampton,0
+607,False,Third,Karaic, Milan,Mr,male,30,1,349246,7,90,U,Southampton,0
+608,True,First,Daniel, Robert Williams,Mr,male,27,1,113804,30,50,U,Southampton,0
+609,True,Second,Laroche, Joseph (Juliette Marie Louise Lafargue),Mrs,female,22,4,SC/Paris 2123,41,58,U,Cherbourg,1
+610,True,First,Shutes, Elizabeth W,Miss,female,40,1,PC 17582,153,46,C,Southampton,0
+611,False,Third,Andersson, Anders Johan (Alfrida Konstantia Brogren),Mrs,female,39,7,347082,31,28,U,Southampton,1
+615,False,Third,Brocklebank, William Alfred,Mr,male,35,1,364512,8,05,U,Southampton,0
+616,True,Second,Herman, Alice,Miss,female,24,4,220845,65,00,U,Southampton,0
+617,False,Third,Danbom, Ernst Gilbert,Mr,male,34,3,347080,14,40,U,Southampton,0
+618,False,Third,Lobb, William Arthur (Cordelia K Stanlick),Mrs,female,26,2,A/5. 3336,16,10,U,Southampton,0
+619,True,Second,Becker, Marion Louise,Miss,female,4,4,230136,39,00,F,Southampton,0
+620,False,Second,Gavey, Lawrence,Mr,male,26,1,31028,10,50,U,Southampton,0
+621,False,Third,Yasbeck, Antoni,Mr,male,27,2,2659,14,45,U,Cherbourg,0
+622,True,First,Kimball, Edwin Nelson Jr,Mr,male,42,2,11753,52,55,D,Southampton,0
+623,True,Third,Nakid, Sahid,Mr,male,20,3,2653,15,74,U,Cherbourg,0
+624,False,Third,Hansen, Henry Damsgaard,Mr,male,21,1,350029,7,85,U,Southampton,0
+625,False,Third,Bowen, David John "Dai",Mr,male,21,1,54636,16,10,U,Southampton,0
+626,False,First,Sutton, Frederick,Mr,male,61,1,36963,32,32,D,Southampton,0
+627,False,Second,Kirkland, Charles Leonard,Mr,male,57,1,219533,12,35,U,Queenstown,0
+628,True,First,Longley, Gretchen Fiske,Miss,female,21,1,13502,77,96,D,Southampton,0
+629,False,Third,Bostandyeff, Guentcho,Mr,male,26,1,349224,7,90,U,Southampton,0
+631,True,First,Barkworth, Algernon Henry Wilson,Mr,male,80,1,27042,30,00,A,Southampton,0
+632,False,Third,Lundahl, Johan Svensson,Mr,male,51,1,347743,7,05,U,Southampton,0
+633,True,First,Stahelin-Maeglin, Max,Mr,male,32,1,13214,30,50,B,Cherbourg,0
+635,False,Third,Skoog, Mabel,Miss,female,9,6,347088,27,90,U,Southampton,0
+636,True,Second,Davis, Mary,Miss,female,28,1,237668,13,00,U,Southampton,0
+637,False,Third,Leinonen, Antti Gustaf,Mr,male,32,1,STON/O 2. 3101292,7,93,U,Southampton,0
+638,False,Second,Collyer, Harvey,Mr,male,31,3,C.A. 31921,26,25,U,Southampton,0
+639,False,Third,Panula, Juha (Maria Emilia Ojala),Mrs,female,41,6,3101295,39,69,U,Southampton,1
+641,False,Third,Jensen, Hans Peder,Mr,male,20,1,350050,7,85,U,Southampton,0
+642,True,First,Sagesser, Emma,Miss,female,24,1,PC 17477,69,30,B,Cherbourg,0
+643,False,Third,Skoog, Margit Elizabeth,Miss,female,2,6,347088,27,90,U,Southampton,0
+646,True,First,Harper, Henry Sleeper,Mr,male,48,2,PC 17572,76,73,D,Cherbourg,0
+647,False,Third,Cor, Liudevit,Mr,male,19,1,349231,7,90,U,Southampton,0
+648,True,First,Simonius-Blumer, Oberst Alfons,Mr,male,56,1,13213,35,50,A,Cherbourg,0
+650,True,Third,Stanley, Amy Zillah Elsie,Miss,female,23,1,CA. 2314,7,55,U,Southampton,0
+652,True,Second,Doling, Elsie,Miss,female,18,2,231919,23,00,U,Southampton,0
+653,False,Third,Kalvik, Johannes Halvorsen,Mr,male,21,1,8475,8,43,U,Southampton,0
+655,False,Third,Hegarty, Hanora "Nora",Miss,female,18,1,365226,6,75,U,Queenstown,0
+656,False,Second,Hickman, Leonard Mark,Mr,male,24,3,S.O.C. 14879,73,50,U,Southampton,0
+658,False,Third,Bourke, John (Catherine),Mrs,female,32,3,364849,15,50,U,Queenstown,0
+659,False,Second,Eitemiller, George Floyd,Mr,male,23,1,29751,13,00,U,Southampton,0
+660,False,First,Newell, Arthur Webster,Mr,male,58,3,35273,113,28,D,Cherbourg,0
+661,True,First,Frauenthal, Henry William,Mr,male,50,3,PC 17611,133,65,U,Southampton,0
+662,False,Third,Badt, Mohamed,Mr,male,40,1,2623,7,23,U,Cherbourg,0
+663,False,First,Colley, Edward Pomeroy,Mr,male,47,1,5727,25,59,E,Southampton,0
+664,False,Third,Coleff, Peju,Mr,male,36,1,349210,7,50,U,Southampton,0
+665,True,Third,Lindqvist, Eino William,Mr,male,20,2,STON/O 2. 3101285,7,93,U,Southampton,0
+666,False,Second,Hickman, Lewis,Mr,male,32,3,S.O.C. 14879,73,50,U,Southampton,0
+667,False,Second,Butler, Reginald Fenton,Mr,male,25,1,234686,13,00,U,Southampton,0
+669,False,Third,Cook, Jacob,Mr,male,43,1,A/5 3536,8,05,U,Southampton,0
+671,True,Second,Brown, Thomas William Solomon (Elizabeth Catherine Ford),Mrs,female,40,3,29750,39,00,U,Southampton,0
+672,False,First,Davidson, Thornton,Mr,male,31,2,F.C. 12750,52,00,B,Southampton,0
+673,False,Second,Mitchell, Henry Michael,Mr,male,70,1,C.A. 24580,10,50,U,Southampton,0
+674,True,Second,Wilhelms, Charles,Mr,male,31,1,244270,13,00,U,Southampton,0
+676,False,Third,Edvardsson, Gustaf Hjalmar,Mr,male,18,1,349912,7,78,U,Southampton,0
+677,False,Third,Sawyer, Frederick Charles,Mr,male,24,1,342826,8,05,U,Southampton,0
+678,True,Third,Turja, Anna Sofia,Miss,female,18,1,4138,9,84,U,Southampton,0
+679,False,Third,Goodwin, Frederick (Augusta Tyler),Mrs,female,43,8,CA 2144,46,90,U,Southampton,1
+680,True,First,Cardeza, Thomas Drake Martinez,Mr,male,36,2,PC 17755,512,33,B,Cherbourg,0
+682,True,First,Hassab, Hammad,Mr,male,27,1,PC 17572,76,73,D,Cherbourg,0
+683,False,Third,Olsvigen, Thor Anderson,Mr,male,20,1,6563,9,23,U,Southampton,0
+684,False,Third,Goodwin, Charles Edward,Mr,male,14,8,CA 2144,46,90,U,Southampton,0
+685,False,Second,Brown, Thomas William Solomon,Mr,male,60,3,29750,39,00,U,Southampton,0
+686,False,Second,Laroche, Joseph Philippe Lemercier,Mr,male,25,4,SC/Paris 2123,41,58,U,Cherbourg,0
+687,False,Third,Panula, Jaako Arnold,Mr,male,14,6,3101295,39,69,U,Southampton,0
+688,False,Third,Dakic, Branko,Mr,male,19,1,349228,10,17,U,Southampton,0
+689,False,Third,Fischer, Eberhard Thelander,Mr,male,18,1,350036,7,80,U,Southampton,0
+690,True,First,Madill, Georgette Alexandra,Miss,female,15,2,24160,211,34,B,Southampton,0
+691,True,First,Dick, Albert Adrian,Mr,male,31,2,17474,57,00,B,Southampton,0
+692,True,Third,Karun, Manca,Miss,female,4,2,349256,13,42,U,Cherbourg,0
+694,False,Third,Saad, Khalil,Mr,male,25,1,2672,7,23,U,Cherbourg,0
+695,False,First,Weir, John,Mr,male,60,1,113800,26,55,U,Southampton,0
+696,False,Second,Chapman, Charles Henry,Mr,male,52,1,248731,13,50,U,Southampton,0
+697,False,Third,Kelly, James,Mr,male,44,1,363592,8,05,U,Southampton,0
+699,False,First,Thayer, John Borland,Mr,male,49,3,17421,110,88,C,Cherbourg,0
+700,False,Third,Humblen, Adolf Mathias Nicolai Olsen,Mr,male,42,1,348121,7,65,F,Southampton,0
+701,True,First,Astor, John Jacob (Madeleine Talmadge Force),Mrs,female,18,2,PC 17757,227,53,C,Cherbourg,0
+702,True,First,Silverthorne, Spencer Victor,Mr,male,35,1,PC 17475,26,29,E,Southampton,0
+703,False,Third,Barbara, Saiide,Miss,female,18,2,2691,14,45,U,Cherbourg,0
+704,False,Third,Gallagher, Martin,Mr,male,25,1,36864,7,74,U,Queenstown,0
+705,False,Third,Hansen, Henrik Juul,Mr,male,26,2,350025,7,85,U,Southampton,0
+706,False,Second,Morley, Henry Samuel ("Mr Henry Marshall"),Mr,male,39,1,250655,26,00,U,Southampton,0
+707,True,Second,Kelly, Florence "Fannie",Mrs,female,45,1,223596,13,50,U,Southampton,0
+708,True,First,Calderhead, Edward Pennington,Mr,male,42,1,PC 17476,26,29,E,Southampton,0
+709,True,First,Cleaver, Alice,Miss,female,22,1,113781,151,55,U,Southampton,0
+711,True,First,Mayne, Berthe Antonine ("Mrs de Villiers"),Miss,female,24,1,PC 17482,49,50,C,Cherbourg,0
+713,True,First,Taylor, Elmer Zebley,Mr,male,48,2,19996,52,00,C,Southampton,0
+714,False,Third,Larsson, August Viktor,Mr,male,29,1,7545,9,48,U,Southampton,0
+715,False,Second,Greenberg, Samuel,Mr,male,52,1,250647,13,00,U,Southampton,0
+716,False,Third,Soholt, Peter Andreas Lauritz Andersen,Mr,male,19,1,348124,7,65,F,Southampton,0
+717,True,First,Endres, Caroline Louise,Miss,female,38,1,PC 17757,227,53,C,Cherbourg,0
+718,True,Second,Troutt, Edwina Celia "Winnie",Miss,female,27,1,34218,10,50,E,Southampton,0
+720,False,Third,Johnson, Malkolm Joackim,Mr,male,33,1,347062,7,78,U,Southampton,0
+721,True,Second,Harper, Annie Jessie "Nina",Miss,female,6,2,248727,33,00,U,Southampton,0
+722,False,Third,Jensen, Svend Lauritz,Mr,male,17,2,350048,7,05,U,Southampton,0
+723,False,Second,Gillespie, William Henry,Mr,male,34,1,12233,13,00,U,Southampton,0
+724,False,Second,Hodges, Henry Price,Mr,male,50,1,250643,13,00,U,Southampton,0
+725,True,First,Chambers, Norman Campbell,Mr,male,27,2,113806,53,10,E,Southampton,0
+726,False,Third,Oreskovic, Luka,Mr,male,20,1,315094,8,66,U,Southampton,0
+727,True,Second,Renouf, Peter Henry (Lillian Jefferys),Mrs,female,30,4,31027,21,00,U,Southampton,0
+729,False,Second,Bryhl, Kurt Arnold Gottfrid,Mr,male,25,2,236853,26,00,U,Southampton,0
+730,False,Third,Ilmakangas, Pieta Sofia,Miss,female,25,2,STON/O2. 3101271,7,93,U,Southampton,1
+731,True,First,Allen, Elisabeth Walton,Miss,female,29,1,24160,211,34,B,Southampton,0
+732,False,Third,Hassan, Houssein G N,Mr,male,11,1,2699,18,79,U,Cherbourg,0
+734,False,Second,Berriman, William John,Mr,male,23,1,28425,13,00,U,Southampton,0
+735,False,Second,Troupiansky, Moses Aaron,Mr,male,23,1,233639,13,00,U,Southampton,0
+736,False,Third,Williams, Leslie,Mr,male,28,1,54636,16,10,U,Southampton,0
+737,False,Third,Ford, Edward (Margaret Ann Watson),Mrs,female,48,5,W./C. 6608,34,38,U,Southampton,1
+738,True,First,Lesurer, Gustave J,Mr,male,35,1,PC 17755,512,33,B,Cherbourg,0
+742,False,First,Cavendish, Tyrell William,Mr,male,36,2,19877,78,85,C,Southampton,0
+743,True,First,Ryerson, Susan Parker "Suzette",Miss,female,21,5,PC 17608,262,38,B,Cherbourg,0
+744,False,Third,McNamee, Neal,Mr,male,24,2,376566,16,10,U,Southampton,0
+745,True,Third,Stranden, Juho,Mr,male,31,1,STON/O 2. 3101288,7,93,U,Southampton,0
+746,False,First,Crosby, Edward Gifford,Mr,male,70,3,WE/P 5735,71,00,B,Southampton,0
+747,False,Third,Abbott, Rossmore Edward,Mr,male,16,3,C.A. 2673,20,25,U,Southampton,0
+748,True,Second,Sinkkonen, Anna,Miss,female,30,1,250648,13,00,U,Southampton,0
+749,False,First,Marvin, Daniel Warner,Mr,male,19,2,113773,53,10,D,Southampton,0
+750,False,Third,Connaghton, Michael,Mr,male,31,1,335097,7,75,U,Queenstown,0
+751,True,Second,Wells, Joan,Miss,female,4,3,29103,23,00,U,Southampton,0
+752,True,Third,Moor, Meier,Mr,male,6,2,392096,12,48,E,Southampton,0
+753,False,Third,Vande Velde, Johannes Joseph,Mr,male,33,1,345780,9,50,U,Southampton,0
+754,False,Third,Jonkoff, Lalio,Mr,male,23,1,349204,7,90,U,Southampton,0
+755,True,Second,Herman, Samuel (Jane Laver),Mrs,female,48,4,220845,65,00,U,Southampton,0
+757,False,Third,Carlsson, August Sigfrid,Mr,male,28,1,350042,7,80,U,Southampton,0
+758,False,Second,Bailey, Percy Andrew,Mr,male,18,1,29108,11,50,U,Southampton,0
+759,False,Third,Theobald, Thomas Leonard,Mr,male,34,1,363294,8,05,U,Southampton,0
+760,True,First,Rothes, of (Lucy Noel Martha Dyer-Edwards),Mrs,female,33,1,110152,86,50,B,Southampton,0
+762,False,Third,Nirva, Iisakki Antino Aijo,Mr,male,41,1,SOTON/O2 3101272,7,13,U,Southampton,0
+763,True,Third,Barah, Hanna Assi,Mr,male,20,1,2663,7,23,U,Cherbourg,0
+764,True,First,Carter, William Ernest (Lucile Polk),Mrs,female,36,4,113760,120,00,B,Southampton,1
+765,False,Third,Eklund, Hans Linus,Mr,male,16,1,347074,7,78,U,Southampton,0
+766,True,First,Hogeboom, John C (Anna Andrews),Mrs,female,51,2,13502,77,96,D,Southampton,1
+768,False,Third,Mangan, Mary,Miss,female,30,1,364850,7,75,U,Queenstown,0
+770,False,Third,Gronnestad, Daniel Danielsen,Mr,male,32,1,8471,8,36,U,Southampton,0
+771,False,Third,Lievens, Rene Aime,Mr,male,24,1,345781,9,50,U,Southampton,0
+772,False,Third,Jensen, Niels Peder,Mr,male,48,1,350047,7,85,U,Southampton,0
+773,False,Second,Mack, (Mary),Mrs,female,57,1,S.O./P.P. 3,10,50,E,Southampton,0
+775,True,Second,Hocking, Elizabeth (Eliza Needs),Mrs,female,54,5,29105,23,00,U,Southampton,0
+776,False,Third,Myhrman, Pehr Fabian Oliver Malkolm,Mr,male,18,1,347078,7,75,U,Southampton,0
+778,True,Third,Emanuel, Virginia Ethel,Miss,female,5,1,364516,12,48,U,Southampton,0
+780,True,First,Robert, Edward Scott (Elisabeth Walton McMillan),Mrs,female,43,2,24160,211,34,B,Southampton,1
+781,True,Third,Ayoub, Banoura,Miss,female,13,1,2687,7,23,U,Cherbourg,0
+782,True,First,Dick, Albert Adrian (Vera Gillespie),Mrs,female,17,2,17474,57,00,B,Southampton,0
+783,False,First,Long, Milton Clyde,Mr,male,29,1,113501,30,00,D,Southampton,0
+785,False,Third,Ali, William,Mr,male,25,1,SOTON/O.Q. 3101312,7,05,U,Southampton,0
+786,False,Third,Harmer, Abraham (David Lishin),Mr,male,25,1,374887,7,25,U,Southampton,0
+787,True,Third,Sjoblom, Anna Sofia,Miss,female,18,1,3101265,7,50,U,Southampton,0
+788,False,Third,Rice, George Hugh,Mr,male,8,6,382652,29,13,U,Queenstown,0
+789,True,Third,Dean, Bertram Vere,Mr,male,1,4,C.A. 2315,20,58,U,Southampton,0
+790,False,First,Guggenheim, Benjamin,Mr,male,46,1,PC 17593,79,20,B,Cherbourg,0
+792,False,Second,Gaskell, Alfred,Mr,male,16,1,239865,26,00,U,Southampton,0
+795,False,Third,Dantcheff, Ristiu,Mr,male,25,1,349203,7,90,U,Southampton,0
+796,False,Second,Otter, Richard,Mr,male,39,1,28213,13,00,U,Southampton,0
+797,True,First,Leader, Alice (Farnham),Mrs,female,49,1,17465,25,93,D,Southampton,0
+798,True,Third,Osman, Mara,Mrs,female,31,1,349244,8,68,U,Southampton,0
+799,False,Third,Ibrahim Shawah, Yousseff,Mr,male,30,1,2685,7,23,U,Cherbourg,0
+800,False,Third,Van Impe, Jean Baptiste (Rosalie Paula Govaert),Mrs,female,30,3,345773,24,15,U,Southampton,1
+801,False,Second,Ponesell, Martin,Mr,male,34,1,250647,13,00,U,Southampton,0
+802,True,Second,Collyer, Harvey (Charlotte Annie Tate),Mrs,female,31,3,C.A. 31921,26,25,U,Southampton,1
+803,True,First,Carter, William Thornton II,Mr,male,11,4,113760,120,00,B,Southampton,0
+805,True,Third,Hedman, Oskar Arvid,Mr,male,27,1,347089,6,98,U,Southampton,0
+806,False,Third,Johansson, Karl Johan,Mr,male,31,1,347063,7,78,U,Southampton,0
+808,False,Third,Pettersson, Ellen Natalia,Miss,female,18,1,347087,7,78,U,Southampton,0
+809,False,Second,Meyer, August,Mr,male,39,1,248723,13,00,U,Southampton,0
+810,True,First,Chambers, Norman Campbell (Bertha Griggs),Mrs,female,33,2,113806,53,10,E,Southampton,0
+811,False,Third,Alexander, William,Mr,male,26,1,3474,7,89,U,Southampton,0
+812,False,Third,Lester, James,Mr,male,39,1,A/4 48871,24,15,U,Southampton,0
+813,False,Second,Slemen, Richard James,Mr,male,35,1,28206,10,50,U,Southampton,0
+814,False,Third,Andersson, Ebba Iris Alfrida,Miss,female,6,7,347082,31,28,U,Southampton,0
+815,False,Third,Tomlin, Ernest Portage,Mr,male,30,1,364499,8,05,U,Southampton,0
+817,False,Third,Heininen, Wendla Maria,Miss,female,23,1,STON/O2. 3101290,7,93,U,Southampton,0
+818,False,Second,Mallet, Albert,Mr,male,31,3,S.C./PARIS 2079,37,00,U,Cherbourg,0
+819,False,Third,Holm, John Fredrik Alexander,Mr,male,43,1,C 7075,6,45,U,Southampton,0
+820,False,Third,Skoog, Karl Thorsten,Mr,male,10,6,347088,27,90,U,Southampton,0
+821,True,First,Hays, Charles Melville (Clara Jennings Gregg),Mrs,female,52,3,12749,93,50,B,Southampton,0
+822,True,Third,Lulic, Nikola,Mr,male,27,1,315098,8,66,U,Southampton,0
+824,True,Third,Moor, (Beila),Mrs,female,27,2,392096,12,48,E,Southampton,0
+825,False,Third,Panula, Urho Abraham,Mr,male,2,6,3101295,39,69,U,Southampton,0
+828,True,Second,Mallet, Andre,Mr,male,1,3,S.C./PARIS 2079,37,00,U,Cherbourg,0
+831,True,Third,Yasbeck, Antoni (Selini Alexander),Mrs,female,15,2,2659,14,45,U,Cherbourg,0
+834,False,Third,Augustsson, Albert,Mr,male,23,1,347468,7,85,U,Southampton,0
+835,False,Third,Allum, Owen George,Mr,male,18,1,2223,8,30,U,Southampton,0
+836,True,First,Compton, Sara Rebecca,Miss,female,39,3,PC 17756,83,16,E,Cherbourg,0
+837,False,Third,Pasic, Jakob,Mr,male,21,1,315097,8,66,U,Southampton,0
+839,True,Third,Chip, Chang,Mr,male,32,1,1601,56,50,U,Southampton,0
+841,False,Third,Alhomaki, Ilmari Rudolf,Mr,male,20,1,SOTON/O2 3101287,7,93,U,Southampton,0
+842,False,Second,Mudd, Thomas Charles,Mr,male,16,1,S.O./P.P. 3,10,50,U,Southampton,0
+843,True,First,Serepeca, Augusta,Miss,female,30,1,113798,31,00,U,Cherbourg,0
+844,False,Third,Lemberopolous, Peter L,Mr,male,34,1,2683,6,44,U,Cherbourg,0
+845,False,Third,Culumovic, Jeso,Mr,male,17,1,315090,8,66,U,Southampton,0
+846,False,Third,Abbing, Anthony,Mr,male,42,1,C.A. 5547,7,55,U,Southampton,0
+848,False,Third,Markoff, Marin,Mr,male,35,1,349213,7,90,U,Cherbourg,0
+849,False,Second,Harper, John,Mr,male,28,2,248727,33,00,U,Southampton,0
+851,False,Third,Andersson, Sigvard Harald Elias,Mr,male,4,7,347082,31,28,U,Southampton,0
+852,False,Third,Svensson, Johan,Mr,male,74,1,347060,7,78,U,Southampton,0
+853,False,Third,Boulos, Nourelain,Miss,female,9,3,2678,15,25,U,Cherbourg,0
+854,True,First,Lines, Mary Conover,Miss,female,16,2,PC 17592,39,40,D,Southampton,0
+855,False,Second,Carter, Ernest Courtenay (Lilian Hughes),Mrs,female,44,2,244252,26,00,U,Southampton,0
+856,True,Third,Aks, Sam (Leah Rosen),Mrs,female,18,2,392091,9,35,U,Southampton,0
+857,True,First,Wick, George Dennick (Mary Hitchcock),Mrs,female,45,3,36928,164,87,U,Southampton,0
+858,True,First,Daly, Peter Denis ,Mr,male,51,1,113055,26,55,E,Southampton,0
+859,True,Third,Baclini, Solomon (Latifa Qurban),Mrs,female,24,4,2666,19,26,U,Cherbourg,1
+861,False,Third,Hansen, Claus Peter,Mr,male,41,3,350026,14,11,U,Southampton,0
+862,False,Second,Giles, Frederick Edward,Mr,male,21,2,28134,11,50,U,Southampton,0
+863,True,First,Swift, Frederick Joel (Margaret Welles Barron),Mrs,female,48,1,17466,25,93,D,Southampton,0
+865,False,Second,Gill, John William,Mr,male,24,1,233866,13,00,U,Southampton,0
+866,True,Second,Bystrom, (Karolina),Mrs,female,42,1,236852,13,00,U,Southampton,0
+867,True,Second,Duran y More, Asuncion,Miss,female,27,2,SC/PARIS 2149,13,86,U,Cherbourg,1
+868,False,First,Roebling, Washington Augustus II,Mr,male,31,1,PC 17590,50,50,A,Southampton,0
+870,True,Third,Johnson, Harold Theodor,Mr,male,4,3,347742,11,13,U,Southampton,0
+871,False,Third,Balkic, Cerin,Mr,male,26,1,349248,7,90,U,Southampton,0
+872,True,First,Beckwith, Richard Leonard (Sallie Monypeny),Mrs,female,47,3,11751,52,55,D,Southampton,0
+873,False,First,Carlsson, Frans Olof,Mr,male,33,1,695,5,00,B,Southampton,0
+874,False,Third,Vander Cruyssen, Victor,Mr,male,47,1,345765,9,00,U,Southampton,0
+875,True,Second,Abelson, Samuel (Hannah Wizosky),Mrs,female,28,2,P/PP 3381,24,00,U,Cherbourg,0
+876,True,Third,Najib, Adele Kiamie "Jane",Miss,female,15,1,2667,7,23,U,Cherbourg,0
+877,False,Third,Gustafsson, Alfred Ossian,Mr,male,20,1,7534,9,85,U,Southampton,0
+878,False,Third,Petroff, Nedelio,Mr,male,19,1,349212,7,90,U,Southampton,0
+880,True,First,Potter, Thomas Jr (Lily Alexenia Wilson),Mrs,female,56,2,11767,83,16,C,Cherbourg,1
+881,True,Second,Shelley, William (Imanita Parrish Hall),Mrs,female,25,2,230433,26,00,U,Southampton,1
+882,False,Third,Markun, Johann,Mr,male,33,1,349257,7,90,U,Southampton,0
+883,False,Third,Dahlberg, Gerda Ulrika,Miss,female,22,1,7552,10,52,U,Southampton,0
+884,False,Second,Banfield, Frederick James,Mr,male,28,1,C.A./SOTON 34068,10,50,U,Southampton,0
+885,False,Third,Sutehall, Henry Jr,Mr,male,25,1,SOTON/OQ 392076,7,05,U,Southampton,0
+886,False,Third,Rice, William (Margaret Norton),Mrs,female,39,6,382652,29,13,U,Queenstown,1
+887,False,Second,Montvila, Juozas,Mr,male,27,1,211536,13,00,U,Southampton,0
+888,True,First,Graham, Margaret Edith,Miss,female,19,1,112053,30,00,B,Southampton,0
+890,True,First,Behr, Karl Howell,Mr,male,26,1,111369,30,00,C,Cherbourg,0
+891,False,Third,Dooley, Patrick,Mr,male,32,1,370376,7,75,U,Queenstown,0
