@@ -35,7 +35,7 @@ namespace MLRunner
                     Embarked = "CHERBOURG",
                     Age = "30",
                     IsMother = false,
-                    Title = "Mrs"
+                    Title = "Mrs",
                 });
                 Console.WriteLine($"{predicted.Class} ==> {predicted.Survived}");
             }
