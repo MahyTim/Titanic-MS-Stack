@@ -70,6 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="train.csv" />
-    <None Include="cleaned.csv" />
+    <None Include="titanicdata2.csv" />
   </ItemGroup>
 </Project>
