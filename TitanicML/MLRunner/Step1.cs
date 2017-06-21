@@ -36,12 +36,14 @@ namespace MLRunner
             public string Sex { get; set; }
             [Feature]
             public string Age { get; set; }
+            [Feature]
+            public bool IsMother { get; set; }
 
             public static IEnumerable<Entry> GetEntries()
             {
                 using (var con = new System.Data.SqlClient.SqlConnection(Program.ConnectionString))
                 {
-                    return con.Query<Entry>("SELECT * FROM STEP_1_TypedAndCleaned ORDER BY newid()").ToArray();
+                    return con.Query<Entry>("SELECT * FROM STEP_2_MoreGeneralized ORDER BY newid()").ToArray();
                 }
             }
         }

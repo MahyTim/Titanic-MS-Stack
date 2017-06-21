@@ -31,7 +31,7 @@ namespace MLRunner
             using (var ms = new MemoryStream())
             {
                 model.Save(ms);
-                // Console.WriteLine(Encoding.UTF8.GetString(ms.ToArray()));
+                //Console.WriteLine(Encoding.UTF8.GetString(ms.ToArray()));
             }
             TestActuals(model);
 
@@ -78,6 +78,8 @@ namespace MLRunner
             public decimal FarePerPerson { get; set; }
             [Feature]
             public decimal FamilySize { get; set; }
+            [Feature]
+            public bool IsMother { get; set; }
 
             public static IEnumerable<Entry> GetEntries()
             {

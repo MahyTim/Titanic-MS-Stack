@@ -70,6 +70,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="train.csv" />
-    <None Include="cleaned.csv" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿CREATE VIEW STEP_1_TypedAndCleaned
+﻿CREATE VIEW [dbo].[STEP_1_TypedAndCleaned] WITH SCHEMABINDING
 AS
 SELECT [PassengerId]
       ,cast([Survived] as bit) as 'Survived'
@@ -28,3 +28,20 @@ SELECT [PassengerId]
       ,[Cabin]
       ,[Embarked]
   FROM [dbo].[RawData]
+
+
+GO
+CREATE UNIQUE CLUSTERED INDEX IDX_V1_Clustered
+    ON dbo.[STEP_1_TypedAndCleaned] (PassengerId);  
+GO  
+
+CREATE INDEX IDX_V1_Sex
+    ON dbo.[STEP_1_TypedAndCleaned] (sex);  
+GO  
+CREATE INDEX IDX_V1_LastName
+    ON dbo.[STEP_1_TypedAndCleaned] (LastName);  
+GO  
+CREATE INDEX IDX_V1_NumberOfSiblings
+    ON dbo.[STEP_1_TypedAndCleaned] (NumberOfSiblings,NumberOfParentsChildren);  
+GO  
+

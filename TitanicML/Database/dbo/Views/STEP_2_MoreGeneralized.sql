@@ -1,4 +1,5 @@
-﻿CREATE VIEW STEP_2_MoreGeneralized
+﻿CREATE VIEW [dbo].[STEP_2_MoreGeneralized]
+WITH SCHEMABINDING
 AS
 SELECT [PassengerId]
       ,[Survived]
@@ -20,13 +21,49 @@ SELECT [PassengerId]
 			END) as 'Title'
       ,[Sex]
       ,[Age]
-      ,([NumberOfParentsChildren] + [NumberOfSiblings]) as 'FamilySize'
+      ,([NumberOfParentsChildren] + [NumberOfSiblings] + 1) as 'FamilySize'
       ,[Ticket]
-      ,([Fare] / ([NumberOfParentsChildren] + [NumberOfSiblings] + 1)) as 'FarePerPerson'
+      ,([Fare]) as 'FarePerPerson'
       , (Case 
 			WHEN [Cabin] = '' 
 					THEN 'U' 
+			WHEN SUBSTRING([Cabin],1,1) = 'T'
+				THEN 'U'
 			ELSE SUBSTRING([Cabin],1,1) 
 			END) as [Deck]
-      ,[Embarked]
-  FROM [dbo].[STEP_1_TypedAndCleaned]
+      ,(
+	  CASE 
+		WHEN [Embarked]  = 'S'
+			THEN 'Southampton'
+		WHEN [Embarked] = 'Q'
+			THEN 'Queenstown'
+		ELSE
+			'Cherbourg'
+		END) as [Embarked],
+		(
+			CASE
+			WHEN (  SELECT COUNT(0) from dbo.STEP_1_TypedAndCleaned s3
+						WHERE 
+						(
+							s1.Sex = 'female' AND s1.Age > 18
+						)
+						AND 
+						(
+							(  
+							 	(((s1.[NumberOfParentsChildren] + s1.[NumberOfSiblings] + 1) = 2) 
+									AND NOT EXISTS ( select top 1 1 from dbo.STEP_1_TypedAndCleaned s2 where s2.Ticket = s1.Ticket and s2.Sex = 'male' ))
+							)
+							OR
+							( 
+								((s1.[NumberOfParentsChildren] + s1.[NumberOfSiblings] + 1) > 2 
+									AND EXISTS (select top 1 1 from dbo.STEP_1_TypedAndCleaned s2 where s2.Ticket = s1.Ticket AND (s2.Age < 18) AND (s2.Age < s1.Age) )
+							)) 
+						)
+					) > 1	
+				THEN 1
+			ELSE
+				0
+			END ) AS [IsMother]
+  FROM [dbo].[STEP_1_TypedAndCleaned] s1
+  WHERE [Fare] <> 0 AND [Embarked] IN ('S','C','Q') And Age <> 0
+GO

@@ -9,12 +9,12 @@ namespace MLRunner
         static void Main(string[] args)
         {
             //Step1.Execute();
-            //Step2.Execute();
+            Step2.Execute();
             //Step3.Execute();
             //Step4.Execute();
             //Step5.Execute();
             //Step6.Execute();
-            Step7.Execute();
+            //Step7.Execute();
         }
     }
 }

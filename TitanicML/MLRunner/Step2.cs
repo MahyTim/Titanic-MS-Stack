@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Dapper;
 using numl;
+using numl.Math.LinearAlgebra;
 using numl.Model;
 using numl.Supervised.DecisionTree;
 
@@ -23,6 +24,22 @@ namespace MLRunner
 
             var learner = Learner.Learn(data, 0.8, 10, generator);
             var model = learner.Model;
+
+            var classes = new []{"FIRST", "SECOND", "THIRD"};
+            foreach (var @class in classes)
+            {
+                var predicted = model.Predict(new Entry()
+                {
+                    Class = @class,
+                    Sex = "FEMALE",
+                    Embarked = "CHERBOURG",
+                    Age = "30",
+                    IsMother = false,
+                    Title = "Mrs"
+                });
+                Console.WriteLine($"{predicted.Class} ==> {predicted.Survived}");
+            }
+
             Console.WriteLine(learner.Accuracy);
             Console.WriteLine(model);
         }
@@ -39,12 +56,10 @@ namespace MLRunner
             public string Age { get; set; }
             [Feature]
             public string Title { get; set; }
-
-            ///// <summary>
-            ///// C = Cherbourg, Q = Queenstown, S = Southampton
-            ///// </summary>
-            //[Feature]
-            //public string Embarked { get; set; }
+            [Feature]
+            public bool IsMother { get; set; }
+            [Feature]
+            public string Embarked { get; set; }
 
             //[Feature]
             //public string Deck { get; set; }

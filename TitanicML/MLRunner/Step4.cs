@@ -83,7 +83,7 @@ namespace MLRunner
             [Feature]
             public string Sex { get; set; }
             [Feature]
-            public string Age { get; set; }
+            public decimal Age { get; set; }
             [Feature]
             public string Title { get; set; }
             [Feature]
@@ -92,11 +92,10 @@ namespace MLRunner
             public decimal FamilySize { get; set; }
             [Feature]
             public string Deck { get; set; }
-            /// <summary>
-            /// C = Cherbourg, Q = Queenstown, S = Southampton
-            /// </summary>
             [Feature]
             public string Embarked { get; set; }
+            [Feature]
+            public bool IsMother { get; set; }
 
             public static IEnumerable<Entry> GetEntries()
             {
